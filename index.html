@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Hi, I am kuldip paraliya. I am web-developer. I am student of L.D. college of engineering(Computer)."
+    />
+    <title>Portfolio</title>
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img class="logo--img" src="logo-pre.png" alt="Portfolio logo" />
+      </a>
+
+      <nav class="header--nav">
+        <ul class="list">
+          <li><a class="list--item" href="#about">About me</a></li>
+          <li><a class="list--item" href="#skill">skill</a></li>
+          <li><a class="list--item" href="#work">My work</a></li>
+          <li><a class="list--item" href="#blog">Blog</a></li>
+          <li>
+            <a class="list--item btn btn--hire" href="#contact">Hire me</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section--hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <div class="heading">
+              <p>My Portfolio</p>
+            </div>
+            <h2 class="hero--title">&mdash; Hello dear</h2>
+            <h3 class="hero--name">I'm Kuldip Paraliya</h3>
+            <p class="hero--description">Web-developer</p>
+
+            <a href="#about" class="btn btn--about margin--right">About me</a>
+            <a href="#contact" class="btn btn--hire">Hire me</a>
+          </div>
+          <div class="hero-img-box">
+            <img class="hero--img" src="person.jpg" alt="My photo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section--about">
+        <div class="about--me">
+          <div class="img">
+            <img class="about--img" src="person.jpg" alt="my image" />
+          </div>
+          <div class="about">
+            <h2 class="about--heading">About me</h2>
+            <p class="intro">
+              Hi, I am kuldip paraliya. I am web-developer. I am student of L.D.
+              college of engineering(Computer). I want to become a great
+              web-developer.
+            </p>
+            <div class="introduction">
+              <div class="name">
+                <ion-icon class="icon" name="person-outline"></ion-icon>
+                <p><span>Name:</span> Kuldip Paraliya</p>
+              </div>
+              <div class="email">
+                <ion-icon class="icon" name="mail-outline"></ion-icon>
+                <p><span>Email:</span> kuldipparaliya6987@gmail.com</p>
+              </div>
+              <div class="profession">
+                <ion-icon class="icon" name="keypad-outline"></ion-icon>
+                <p><span>Profession:</span> Web-developer</p>
+              </div>
+              <div class="website">
+                <ion-icon class="icon" name="logo-web-component"></ion-icon>
+                <p><span>Website:</span> example.com</p>
+              </div>
+              <div class="phone">
+                <ion-icon class="icon" name="call-outline"></ion-icon>
+                <p><span>Phone:</span> +931-311-8046</p>
+              </div>
+              <div class="location">
+                <ion-icon class="icon" name="location-outline"></ion-icon>
+                <p><span>Location:</span> LDCE Hostel</p>
+              </div>
+            </div>
+            <div class="download--btn">
+              <button
+                type="submit"
+                class="download"
+                onclick="window.open('resume.jpg')"
+              >
+                View CV
+              </button>
+            </div>
+            <!-- <div class="download--btn">
+              <a href="resume.jpg" download="resume"
+                ><button type="button" class="download">Download cv</button></a
+              > -->
+            <!-- <a href="resume.jpg" download="GFG">
+                <button type="button">Download</button>
+              </a> 
+            </div>-->
+            <!-- <div class="download--btn">
+              <button class="download">Download cv</button>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- <hr /> -->
+
+        <div id="skill" class="section-skill">
+          <div class="skill--header">
+            <h3 class="skill--heading">My skills</h3>
+            <p class="skill--description">
+              A skill is the learned ability to act with determined results with
+              good execution often within a given amount of time,energy or both.
+            </p>
+          </div>
+          <div class="content">
+            <h3 class="skill--title">programming</h3>
+            <div class="skill--box">
+              <div class="single--skill">
+                <span class="topic">HTML</span>
+                <span class="percent">80%</span>
+                <span class="bar bar--1"></span>
+              </div>
+              <div class="single--skill">
+                <span class="topic">JAVA</span>
+                <span class="percent">80%</span>
+                <span class="bar bar--2"></span>
+              </div>
+              <div class="single--skill">
+                <span class="topic">CSS</span>
+                <span class="percent">70%</span>
+                <span class="bar bar--3"></span>
+              </div>
+              <div class="single--skill">
+                <span class="topic">MYSQL</span>
+                <span class="percent">70%</span>
+                <span class="bar bar--4"></span>
+              </div>
+              <div class="single--skill">
+                <span class="topic">JAVASCRIPT</span>
+                <span class="percent">60%</span>
+                <span class="bar bar--5"></span>
+              </div>
+              <div class="single--skill">
+                <span class="topic">DSA</span>
+                <span class="percent">70%</span>
+                <span class="bar bar--6"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <hr /> -->
+
+      <section id="work" class="section--work">
+        <div class="work-section">
+          <div class="work--header">
+            <h3 class="work--heading">My work</h3>
+          </div>
+        </div>
+
+        <div class="my--work">
+          <div class="work--text--box">
+            <p class="number">01</p>
+            <p class="work--title">Omnifood Ai chooses</p>
+            <p class="work--description">
+              Omnifood is website which show the different recipes and dishes
+              available. Users see the price of the dishes and recipes. Website
+              contains contact form and very footer design. It is only front end
+              website.
+            </p>
+          </div>
+
+          <div class="work--img--box">
+            <img
+              class="work--img"
+              src="work/work-1.jpg"
+              alt="Ai chooses image"
+            />
+          </div>
+
+          <div class="work--img--box">
+            <img class="work--img" src="work/work-2.jpg" alt="pricing card" />
+          </div>
+
+          <div class="work--text--box">
+            <p class="number">02</p>
+            <p class="work--title">Pricing card</p>
+            <p class="work--description">
+              In omnifood website we develop the different pricing card for
+              recipes and dishes which show the prize, offer , time to order and
+              delivery charges. Main aim of pricing card is show the prize of
+              different dishes.
+            </p>
+          </div>
+
+          <div class="work--text--box">
+            <p class="number">03</p>
+            <p class="work--title">Sign up form</p>
+            <p class="work--description">
+              In Omnifood website we design the contact form so that users can
+              contact the admin by filling out the form. Form contains the full
+              name, email and phone no. For design the contact form we use the
+              css grid property.
+            </p>
+          </div>
+          <div class="work--img--box">
+            <img class="work--img" src="work/work-3.jpg" alt="sign up form" />
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="blog">
+        <div class="blog--header">
+          <h2 class="blog--heading">News desk</h2>
+          <p class="blog--secondary">Latest Project</p>
+        </div>
+        <div class="latest--blog">
+          <div class="blog-content">
+            <div class="blog--img--box">
+              <img
+                class="blog--img"
+                src="blog/book.jpg"
+                alt="web design image"
+              />
+            </div>
+            <div class="blog--text--box">
+              <p class="date">20.03.2023</p>
+              <h3 class="blog--heading web">Second Hand Book</h3>
+              <p class="blog--description">
+                Student can buy and sell their second hand book using this
+                website very easily. Owner can manage all data and keep track of
+                all books. Backend technology use is php.
+              </p>
+              <div class="button">
+                <a
+                  href="https://github.com/kuldipparaliya/secondhand_bookstore/"
+                  class="btn"
+                  >read more</a
+                >
+                <!-- <button class="btn">read more</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog--img--box">
+              <img
+                class="blog--img"
+                src="blog/voting.jpg"
+                alt="web design trends image"
+              />
+            </div>
+            <div class="blog--text--box">
+              <p class="date">10.05.2023</p>
+              <h3 class="blog--heading web">Voting System</h3>
+              <p class="blog--description">
+                Voter can add their voter id and login into voting portal. Voter
+                can see all parties ,candidate as per their booth and give their
+                vote. Owner can manage all data.
+              </p>
+              <div class="button">
+                <a
+                  href="https://github.com/kuldipparaliya/voting_system/"
+                  class="btn"
+                  >read more</a
+                >
+                <!-- <button class="btn">read more</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="blog-content">
+            <div class="blog--img--box">
+              <img
+                class="blog--img"
+                src="blog/portfolio.jpg"
+                alt="Brand identity image"
+              />
+            </div>
+            <div class="blog--text--box">
+              <p class="date">01.05.2022</p>
+              <h3 class="blog--heading web">My Portfolio</h3>
+              <p class="blog--description">
+                Design my portfolio using html,css and javascript for practice
+                purpose. Portfolio contains all my work and my latest detail. It
+                is only front end design without backend.
+              </p>
+              <div class="button">
+                <a
+                  href="https://github.com/kuldipparaliya/voting_system/"
+                  class="btn"
+                  >read more</a
+                >
+                <!-- <button class="btn">read more</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section--web">
+          <div class="web--header">
+            <h2 class="web--heading">web & mobile developer</h2>
+            <p class="web--secondary">
+              Get creative and enjoy the most dedicated web development services
+              by kuldip.
+            </p>
+          </div>
+
+          <div class="web--content">
+            <div class="web--text--box">
+              <ion-icon class="web--icon" name="search-circle-outline">
+              </ion-icon>
+              <p class="web--title">SEO marketing</p>
+              <p class="web--description">
+                We know the ins and outs of SEO. We can help you to rank your
+                website better and produce more visitors.
+              </p>
+            </div>
+            <div class="web--text--box">
+              <ion-icon name="heart-outline" class="web--icon"> </ion-icon>
+              <p class="web--title">full-stack</p>
+              <p class="web--description">
+                As a Full-stack marketing and development agency. We provide
+                creative and technical solutions for a range of business needs.
+              </p>
+            </div>
+            <div class="web--text--box">
+              <ion-icon name="bulb-outline" class="web--icon"> </ion-icon>
+              <p class="web--title">web-development</p>
+              <p class="web--description">
+                We Build websited For your Needs. Whether you're a business,
+                organization, or an individual looking for a website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section--cta">
+        <div class="cta">
+          <div class="cta--header">
+            <p class="cta--heading">Contact</p>
+            <p class="cta--description">
+              I am every day here for you. Contact me and stay in touch.
+            </p>
+          </div>
+
+          <div class="cta--content">
+            <div class="info">
+              <ion-icon name="location-outline" class="cta--icon"></ion-icon>
+              <p class="cta--title">Address</p>
+              <p class="cta--value">
+                LDCE hostel navarangpura,380015 Ahmedabad
+              </p>
+            </div>
+            <div class="info">
+              <ion-icon name="call-outline" class="cta--icon"></ion-icon>
+              <p class="cta--title">Phone</p>
+              <p class="cta--value">+931-311-8046</p>
+            </div>
+            <div class="info">
+              <ion-icon name="mail-outline" class="cta--icon"></ion-icon>
+              <p class="cta--title">Email</p>
+              <p class="cta--value">kuldipparaliya6987@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta--form">
+          <div class="form--text--box">
+            <div class="form--header">
+              <p class="form--title">Contact form</p>
+              <p class="form--description">
+                You can contact me by filling form.
+              </p>
+            </div>
+
+            <form class="form--grid" name="sign-up" netlify>
+              <div class="name">
+                <label for="name"> Full name </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="paraliya kuldip"
+                  required
+                />
+              </div>
+              <div class="email">
+                <label for="email"> Email </label>
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  title="Please enter valid email address"
+                  placeholder="kuldipparaliya6987@gmail.com"
+                  required
+                />
+              </div>
+              <div class="phone">
+                <label for="phone"> Phone </label>
+                <input
+                  name="name"
+                  id="phone"
+                  type="tel"
+                  placeholder="+931-311-8046"
+                  title="Please enter valid contact number"
+                  required
+                />
+              </div>
+              <button class="submit" id="submit">submit</button>
+            </form>
+          </div>
+          <div class="form-img-box" role="img" aria-label="person image"></div>
+          <!-- <div class="form--img--box">
+            <img class="hero--img person" src="person.jpg" alt="person image" />
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <hr />
+
+    <footer class="footer">
+      <div class="footer--section">
+        <div class="col--logo">
+          <div class="footer--logo">
+            <a href="#"
+              ><img class="footer--img" src="logo-pre.png" alt="portfolio logo"
+            /></a>
+          </div>
+          <div class="social--links">
+            <ul class="social--link">
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-instagram"
+                    class="footer--icon"
+                  ></ion-icon
+                ></a>
+                <!-- <a href="http://127.0.0.1:5500/resume.html">
+                  <ion-icon
+                    name="id-card-outline"
+                    class="footer--icon"
+                  ></ion-icon>
+                </a> -->
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-facebook"
+                    class="footer--icon"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/kuldipparaliya/"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <p class="copyright">
+            copyright &copy; 2023 by kuldip inc. All rights reserved.
+          </p>
+        </div>
+        <div class="contact me">
+          <h4 class="footer--heading">Contact me</h4>
+          <address class="contacts">
+            <p class="address">LDCE hostel navarangpura, 380015 ahemadabad</p>
+            <p>
+              <a href="tel:111-222-3333" class="footer--link">931-311-8046</a
+              ><br />
+              <a href="mailto:me@exapmle.com" class="footer--link"
+                >kuldipparaliya6987@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <div class="aboutme">
+          <h4 class="footer--heading">About-me</h4>
+          <ul class="list--style">
+            <li><a class="footer--link" href="#">careers</a></li>
+            <li><a class="footer--link" href="#">Graduation</a></li>
+          </ul>
+        </div>
+        <div class="resources">
+          <h4 class="footer--heading">resources</h4>
+          <ul class="list--style">
+            <li><a class="footer--link" href="#">Help center</a></li>
+            <li><a class="footer--link" href="#">privacy & terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
